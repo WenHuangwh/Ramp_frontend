@@ -1,0 +1,12 @@
+# System files
+.DS_Store
+
+# Environment files
+.env
+
+# Node modules
+node_modules/
+
+# Package lock files
+package-lock.json
+yarn.lock
