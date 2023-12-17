@@ -20,7 +20,6 @@ export function App() {
   )
 
   const loadAllTransactions = useCallback(async () => {
-    transactionsByEmployeeUtils.invalidateData()
     await paginatedTransactionsUtils.fetchAll()
   }, [paginatedTransactionsUtils, transactionsByEmployeeUtils])
 
